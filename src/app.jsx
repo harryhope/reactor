@@ -1,8 +1,6 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import {Switch, Route} from 'react-router-dom'
 import {Helmet} from 'react-helmet'
-
 
 const Home = props => (
   <div>
@@ -26,7 +24,7 @@ const App = () => (
         component={Home}
       />
       <Route
-        path="*"
+        path='*'
         component={Error}
       />
     </Switch>

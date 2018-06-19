@@ -1,5 +1,8 @@
 module.exports = {
-  extends: 'eslint-config-standard',
+  extends: [
+    'eslint-config-standard',
+    'eslint-config-standard-react'
+  ],
   env: {
     node: true,
     commonjs: true,
