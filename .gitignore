@@ -61,6 +61,4 @@ typings/
 .next
 
 # build folder
-dist/*.js
-dist/*.css
-dist/*.map
+dist/*.*

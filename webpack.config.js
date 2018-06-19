@@ -37,7 +37,9 @@ const development = {
   mode: 'development',
   devServer: {
     hot: true,
-    stats: 'minimal'
+    port: 3000,
+    stats: 'minimal',
+    historyApiFallback: true
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
