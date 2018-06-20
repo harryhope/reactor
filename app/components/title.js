@@ -1,11 +1,11 @@
 import React from 'react'
 
 class Title extends React.Component {
-  componentDidMount() {
+  componentDidMount () {
     document.title = this.props.children
   }
 
-  render() {
+  render () {
     return null
   }
 }
