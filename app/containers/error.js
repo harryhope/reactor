@@ -4,4 +4,4 @@ const Error = () => (
   <div>Looks like a 404</div>
 )
 
-module.exports = Error
+export default Error

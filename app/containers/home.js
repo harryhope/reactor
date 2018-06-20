@@ -1,13 +1,11 @@
 import React from 'react'
-import {Helmet} from 'react-helmet'
+import Title from '../components/title'
 
 const Home = props => (
   <div>
-    <Helmet>
-      <title>Reactor Home</title>
-    </Helmet>
+    <Title>Reactor Home</Title>
     <span>Welcome Home</span>
   </div>
 )
 
-module.exports = Home
+export default Home
