@@ -1,27 +1,18 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
-import {Helmet} from 'react-helmet'
 import styled, {injectGlobal} from 'styled-components'
-
-const Home = props => (
-  <div>
-    <Helmet>
-      <title>Reactor Home</title>
-    </Helmet>
-    Welcome Home
-  </div>
-)
-
-const Error = () => (
-  <div>Looks like a 404</div>
-)
+import styledNormalize from 'styled-normalize'
+import Home from './containers/home'
+import Error from './containers/error'
 
 injectGlobal`
+  ${styledNormalize}
+
   html {
     width: 100%;
     height: 100%;
   }
-  body {
+  body, #app {
     width: 100%;
     height: 100%;
   }

@@ -5,7 +5,7 @@ const LodashPlugin = require('lodash-webpack-plugin')
 const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 
 const base = {
-  entry: './src/index.js',
+  entry: './app/index.js',
   output: {
     path: path.join(__dirname, '/dist'),
     publicPath: '/dist',
