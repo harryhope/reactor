@@ -10,7 +10,9 @@ Just another react boilerplate.
 - :earth_americas: React Router 4.x
 
 ## Getting Started
-Clone the repository and make sure you have `node` installed, and run `npm i` to install dependencies.
+Clone the repository and make sure you have `node` installed.
+
+Run `npm i` to install dependencies.
 
 To run a development server with hot module reloading type:
 ```
