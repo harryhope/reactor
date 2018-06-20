@@ -10,7 +10,7 @@
     "build": "npx webpack -p",
     "lint": "npx eslint . --ext .jsx,.js --ignore-pattern '/dist/*'",
     "lint:fix": "npx eslint --fix . --ext .jsx,.js --ignore-pattern '/dist/*'",
-    "stats": "webpack -p --profile --json > ./dist/stats.json && webpack-bundle-analyzer ./dist/stats.json"
+    "profile": "webpack -p --profile --json > ./dist/stats.json && webpack-bundle-analyzer ./dist/stats.json"
   },
   "repository": {
     "type": "git",
