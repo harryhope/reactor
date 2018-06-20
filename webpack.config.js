@@ -35,6 +35,7 @@ const base = {
 
 const development = {
   mode: 'development',
+  devtool: 'cheap-module-eval-source-map',
   devServer: {
     hot: true,
     port: 3000,

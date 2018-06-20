@@ -1,6 +1,7 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import {Helmet} from 'react-helmet'
+import styled, {injectGlobal} from 'styled-components'
 
 const Home = props => (
   <div>
@@ -15,8 +16,25 @@ const Error = () => (
   <div>Looks like a 404</div>
 )
 
+injectGlobal`
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+  }
+`
+
+const Container = styled.div`
+  width: 100%;
+  height: 100%;
+  position: relative;
+`
+
 const App = () => (
-  <div>
+  <Container>
     <Switch>
       <Route
         exact
@@ -28,7 +46,7 @@ const App = () => (
         component={Error}
       />
     </Switch>
-  </div>
+  </Container>
 )
 
 export default App
