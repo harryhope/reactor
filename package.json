@@ -4,8 +4,8 @@
   "description": "Just another react boilerplate",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && npx jest",
-    "test:jest": "npx jest",
+    "test": "npm run lint && npm run test:jest",
+    "test:jest": "npx jest --coverage",
     "dev": "npx webpack-dev-server --mode development",
     "build": "npx webpack -p",
     "lint": "npx eslint . --ext .jsx,.js --ignore-pattern '/dist/*'",
