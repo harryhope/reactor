@@ -18,14 +18,14 @@ injectGlobal`
   }
 `
 
-const Container = styled.div`
+const Wrapper = styled.div`
   width: 100%;
   height: 100%;
   position: relative;
 `
 
 const App = () => (
-  <Container>
+  <Wrapper>
     <Switch>
       <Route
         exact
@@ -37,7 +37,7 @@ const App = () => (
         component={Error}
       />
     </Switch>
-  </Container>
+  </Wrapper>
 )
 
 export default App
