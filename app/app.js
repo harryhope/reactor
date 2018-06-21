@@ -11,10 +11,16 @@ injectGlobal`
   html {
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
   }
+
   body, #app {
     width: 100%;
     height: 100%;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
   }
 `
 
