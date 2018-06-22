@@ -2,8 +2,8 @@ import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import styled, {injectGlobal} from 'styled-components'
 import styledNormalize from 'styled-normalize'
-import Home from './containers/home'
-import Error from './containers/error'
+import Home from '../containers/home'
+import Error from '../containers/error'
 
 injectGlobal`
   ${styledNormalize}
