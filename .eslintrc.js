@@ -3,6 +3,7 @@ module.exports = {
     'eslint-config-standard',
     'eslint-config-standard-react'
   ],
+  parser: 'babel-eslint',
   env: {
     node: true,
     commonjs: true,
