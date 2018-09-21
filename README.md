@@ -1,4 +1,4 @@
-# reactor
+# ☢️ reactor
 Just another react boilerplate.
 
 **Includes:**
