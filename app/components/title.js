@@ -5,6 +5,10 @@ class Title extends React.Component {
     document.title = this.props.children
   }
 
+  componentWillUnmount () {
+    document.title = 'Reactor'
+  }
+
   render () {
     return null
   }
