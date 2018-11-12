@@ -1,11 +1,11 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
-import styled, {injectGlobal} from 'styled-components'
+import styled, {createGlobalStyle} from 'styled-components'
 import styledNormalize from 'styled-normalize'
 import Home from '../containers/home'
 import Error from '../containers/error'
 
-injectGlobal`
+const GlobalStyle = createGlobalStyle`
   ${styledNormalize}
 
   html {
@@ -32,6 +32,7 @@ const Wrapper = styled.div`
 
 const App = () => (
   <Wrapper>
+    <GlobalStyle />
     <Switch>
       <Route
         exact
