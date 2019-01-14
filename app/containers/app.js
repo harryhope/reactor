@@ -30,7 +30,7 @@ const Wrapper = styled.div`
   position: relative;
 `
 
-const App = () => (
+const App = () =>
   <Wrapper>
     <GlobalStyle />
     <Switch>
@@ -45,6 +45,5 @@ const App = () => (
       />
     </Switch>
   </Wrapper>
-)
 
 export default App

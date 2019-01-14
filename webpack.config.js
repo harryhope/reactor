@@ -53,8 +53,8 @@ const production = {
 }
 
 module.exports = (() =>
-  merge(base, (process.env.NODE_ENV === 'production'
+  merge(base, process.env.NODE_ENV === 'production'
     ? production
     : development
-  ))
+  )
 )()

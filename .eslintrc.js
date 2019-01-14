@@ -11,6 +11,10 @@ module.exports = {
     jest: true
   },
   rules: {
-    'react/prop-types': 0
+    'react/prop-types': 0,
+    'arrow-parens': ['error', 'as-needed'],
+    'no-extra-parens': ['error', 'all', {
+      nestedBinaryExpressions: false
+    }]
   }
 }

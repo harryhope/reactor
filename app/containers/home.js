@@ -15,12 +15,11 @@ const Wrapper = styled.div`
   }
 `
 
-const Home = props => (
+const Home = props =>
   <Wrapper>
     <Title>Reactor Home</Title>
     <span>Welcome Home</span>
     <Welcome />
   </Wrapper>
-)
 
 export default Home
