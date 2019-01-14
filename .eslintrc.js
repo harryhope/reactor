@@ -16,5 +16,8 @@ module.exports = {
     'no-extra-parens': ['error', 'all', {
       nestedBinaryExpressions: false
     }]
+  },
+  settings: {
+    react: {version: 'detect'}
   }
 }
