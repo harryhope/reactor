@@ -59,7 +59,7 @@
     "jest": "^26.0.1",
     "lodash-webpack-plugin": "^0.11.5",
     "progress-bar-webpack-plugin": "github:harryhope/progress-bar-webpack-plugin",
-    "webpack": "^4.33.0",
+    "webpack": "^5.11.0",
     "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
