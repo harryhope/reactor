@@ -1,10 +1,7 @@
 import {createStore} from 'redux'
-import createReducer from 'redux-updeep'
-import createPublish from './utils/publish'
+import {createHookedOnReducer} from 'hooked-on-redux'
 
-const namespace = 'APP'
 const initialState = {}
 
-export const reducer = createReducer(namespace, initialState)
+const reducer = createHookedOnReducer(initialState)
 export const store = createStore(reducer, initialState)
-export const publish = createPublish(store, namespace)
